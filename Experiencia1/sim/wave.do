@@ -1,0 +1,33 @@
+onerror {resume}
+
+quietly WaveActivateNextPane {} 0
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/clock
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/reset
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/reset_rise
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/incr_a
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/incr_a_rise
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/decr_a
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/decr_a_rise
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/incr_b
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/incr_b_rise
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/decr_b
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/decr_b_rise
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/count_a
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/count_b
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/clock_controle_display_en
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/count_controle_display_en
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/dig_display
+
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/display
+add wave /tb_placar_eletronico_digital/dut_placar_eletronico_digital/display_en
+
+clock_controle_display_en
+
+wave zoom full
